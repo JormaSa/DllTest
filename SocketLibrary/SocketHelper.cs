@@ -31,6 +31,7 @@ namespace SocketLibrary
 
         public void Open()
         {
+            // avaus
             ns = client.GetStream();
             sw = new StreamWriter(ns);
             sr = new StreamReader(ns);
