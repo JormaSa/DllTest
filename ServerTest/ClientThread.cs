@@ -32,7 +32,7 @@ namespace ServerTest
             // avataan streamit
             SocketHelper socketHelper = new SocketHelper(client);
             socketHelper.Open();
-
+            // aika
             DateTime t = DateTime.Now;
             // luetaan ja käsitellään komennot
             bool ok = true;

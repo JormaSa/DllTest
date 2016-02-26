@@ -14,7 +14,9 @@ namespace ClientTest
     {
         static void Main(string[] args)
         {
+            // portti
             int port = 9000;
+            // luodaan client
             TcpClient client = new TcpClient("localhost", port);
 
             SocketHelper socketHelper = new SocketHelper(client);

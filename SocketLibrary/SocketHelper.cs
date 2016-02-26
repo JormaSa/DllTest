@@ -11,6 +11,7 @@ namespace SocketLibrary
 {
     public class COMMANDS
     {
+        // komennto
         public const string TIME = "TIME";
         public const string QUIT = "QUIT";
         public const string NUMBER_OF_REQUESTS = "NUMBER_OF_REQUESTS";
@@ -38,7 +39,7 @@ namespace SocketLibrary
         }
 
         public void Close()
-        {
+        {// sulkeminen
             sw.Close();
             sr.Close();
             ns.Close();
